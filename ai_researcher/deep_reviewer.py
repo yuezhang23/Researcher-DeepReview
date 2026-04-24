@@ -115,7 +115,7 @@ class DeepReviewer:
                  custom_model_name=None,
                  device="cuda",
                  tensor_parallel_size=1,
-                 gpu_memory_utilization=0.95):
+                 gpu_memory_utilization=0.85):
         """
         Initialize the DeepReviewer.
 
